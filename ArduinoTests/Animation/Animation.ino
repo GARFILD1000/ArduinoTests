@@ -31,8 +31,8 @@ void loop() {
   myOLED.update();
   delay(50);
 */
- for(int i = 0; i < rabbitWait.framesNumber; i++){
-   myOLED.drawBitmap(0, 0, rabbitWait.frames[i], 128, 64);
+ for(int i = 0; i < rabbitRun.framesNumber; i++){
+   myOLED.drawBitmap(0, 0, rabbitRun.frames[i], 128, 64);
    myOLED.update();
    delay(50);
  }
